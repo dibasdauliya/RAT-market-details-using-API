@@ -26,7 +26,7 @@ export default function Home({ resData }) {
       </Head>
       <Image src={image?.large} alt={name} width='200px' height='200px' />
       <p>{description.en}</p>
-      <small>Rank: {market_cap_rank}</small>
+      {/* <small>Rank: {market_cap_rank}</small> */}
       <ul>
         <li>Name: {name}</li>
         <li>Symbol: {symbol}</li>
